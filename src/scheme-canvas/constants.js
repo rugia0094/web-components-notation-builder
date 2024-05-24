@@ -1,0 +1,37 @@
+export const MIDDLE_BUTTON_ID = 1;
+
+export const ELEMENT_TYPE = {
+  BLOCK: "BLOCK",
+  CIRCLE: "CIRCLE",
+  ARROW: "ARROW",
+};
+
+export const ACTION = {
+  NONE: "NONE",
+  PANNING: "PANNING",
+  CREATING: "CREATING",
+  MOVING: "MOVING",
+  RESIZING: "RESIZING",
+  WRITING: "WRITING",
+};
+
+export const TOOL = {
+  SELECTION: "SELECTION",
+  DELETE: "DELETE",
+  RESIZE: "RESIZE",
+  TEXT: "TEXT",
+  BLOCK: ELEMENT_TYPE.BLOCK,
+  ARROW: ELEMENT_TYPE.ARROW,
+  CIRCLE: ELEMENT_TYPE.CIRCLE,
+};
+
+export const CIRCLE_SIZE = 50;
+
+export const ARROW_SIDE_SIZE = 10;
+
+export const ARROW_DIRECTION_ANGLE = {
+  UP: 0,
+  DOWN: Math.PI,
+  RIGHT: Math.PI / 2,
+  LEFT: Math.PI + Math.PI / 2,
+};
